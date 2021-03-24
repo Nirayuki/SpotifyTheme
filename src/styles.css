@@ -2,11 +2,14 @@ body{
     margin: 0;
     padding: 0;
     color: brown;
+    overflow: hidden;
 }
 
 
 main{
     display: flex;
+    height: 90vh;
+    width: 100vw;
 }
 
 
