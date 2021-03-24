@@ -12,6 +12,18 @@ main{
     width: 100vw;
 }
 
+::-webkit-scrollbar{
+    width: 20px;
+    
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0.5);
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(113, 89, 193, 10);
+}
+
 
 .header_main{
     width: 250px;
@@ -71,10 +83,12 @@ main{
 }
 .content{
     display: flex;
-    width: 95%;
+    width: 100%;
+    background-color: #b3b3b3;
+    height: 85vh;
     flex-wrap: wrap;
     justify-content: center;
-    
+    overflow-y: scroll;
 }
 
 
