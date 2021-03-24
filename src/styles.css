@@ -71,22 +71,42 @@ main{
     width: 95%;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 
 .col{
-    width: 30%;
+    width: 25%;
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .card{
     width: 150px;
     height: 175px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     background-color: #FFF;
-    border-radius: 10px;
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    box-shadow: 1px 3px 9px rgba(113, 89, 193, 0.7);
+
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 1px 3px 9px rgba(113, 89, 193, 10);
+    transform: scale(1.02);
+    transition: 0.3s;
 }
 
 footer{
