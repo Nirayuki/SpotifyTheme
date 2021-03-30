@@ -1,8 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    color: brown;
+    color: rgb(116, 114, 114);
     overflow: hidden;
+    *font-family: 'Alfa Slab One', cursive;
 }
 
 
@@ -84,11 +85,12 @@ main{
 .content{
     display: flex;
     width: 100%;
-    background-color: #b3b3b3;
+    background-color: #444242;
     height: 85vh;
     flex-wrap: wrap;
     justify-content: center;
     overflow-y: scroll;
+    font-size:13px;
 }
 
 
@@ -110,7 +112,7 @@ main{
     justify-content: center;
     align-items: center;
 
-    background-color: #FFF;
+    background-color: rgb(48, 47, 47);
     border-radius: 12px;
 
     cursor: pointer;
@@ -118,6 +120,7 @@ main{
     box-shadow: 1px 3px 9px rgba(113, 89, 193, 0.7);
 
     transition: 0.5s;
+    
 }
 
 .card:hover{
